@@ -73,10 +73,21 @@ a.list-group-item.active,[class*='-info'] {
     color:#fff;
 }
 
+#img_dron{
+    margin-right: 0; 
+    padding-right: 0; 
+    max-width: 90%;
+    border-bottom: 0.09em solid black;
+    border-right: 0.09em solid black;
+
+
+}
+
 #section0 {
-    background-color: #91AA9D;
+    padding-top: 0; 
+    background-color: white;
     color: black;
-    margin-top: 1%; 
+    margin-top: 0%; 
 }
 
 
@@ -154,6 +165,17 @@ footer .container div div img{
     margin-top: 35%;
     max-width: 140%;
     border: 0.01em solid white;
+}
+
+#div_instructor img{
+    border: 0.09em solid black;
+    margin-left: 20%;
+    min-width: 60%;
+}
+
+#div_moodle img{
+    margin-left: 2%;
+    max-width: 65%;
 }
 
 footer .nav>li>a {
