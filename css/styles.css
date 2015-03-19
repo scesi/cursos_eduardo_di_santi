@@ -43,7 +43,7 @@ html,body {
 }
 
 .navbar-trans a{
-    color:#fefefe;
+    color: #fefefe;
 }
 
 .navbar-trans .form-control:focus {
@@ -54,14 +54,14 @@ html,body {
 }
 
 section {
-	padding-top: 0.1em;  
-    padding-bottom:50px; 
+	padding-top: 1%;  
+    padding-bottom: 3em; 
     min-height:calc(100% - 1px);
 }
 
 .v-center {
-    padding-top:10%;
-    font-size:70px;
+    padding-top: 3%;
+    font-size: 5em;
 }
   
 .well {
@@ -71,6 +71,17 @@ section {
 a.list-group-item.active,[class*='-info'] {
 	background-color: #168ccc;
     color:#fff;
+}
+
+#section0 {
+    background-color: #91AA9D;
+    color: black;
+    padding-top: 1%; 
+}
+
+#section0 .v-center {
+    padding-top: 3%;
+    font-size: 3.4em;
 }
   
 #section1 {
@@ -112,8 +123,7 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #section7 .v-center {
-    padding-top:1%;
-    font-size:70px;
+    padding-top: 1%;
 }
 
 #section7 img{
@@ -122,11 +132,31 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 footer {
-	background-color:#000019;
-    color:#ddd;
-    min-height:100px;
-    padding-top:20px;
-    padding-bottom:40px;
+	background-color: #000019;
+    color: #ddd;
+    min-height: 100px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer .container div div img{
+    margin-top: 13%;
+    max-width: 60%;
+    vertical-align: middle;
+}
+
+#img_umss{ }
+#img_informatica{ 
+    max-width: 90%;
+}
+#img_scesi{
+    margin-top: 25%;
+    max-width: 105%;
+}
+#img_ful{
+    margin-top: 35%;
+    max-width: 140%;
+    border: 0.01em solid white;
 }
 
 footer .nav>li>a {
@@ -136,30 +166,69 @@ footer .nav>li>a {
 
 footer .nav>li>a:hover {
     background-color:transparent;
-	color:#fff;
+    color:#fff;
 }
 
 .contact-text{
-    padding-bottom: 2em;
+    padding-bottom: 1%;
 }
 
 @media screen and (max-width: 320px) {
-    h1 {
-        display: block;
-        font-size: -212em;
-        margin-top: 0.67em;
-        margin-bottom: 0.67em;
-        margin-left: 0;
-        margin-right: 0;
-        //font-weight: bold;
+    
+    .v-center {
+        padding-top: 3%;
+        font-size: 3em;
     }
+
+    #section0 .v-center {
+        padding-top: 15%;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+ 
 
     #section1{
         background: black;
     }
 
     #section7 img{
+        vertical-align: middle;
         max-width: 17em;
     }
+
+    .section5{
+        text-align: left;
+    }
+
+
+    #img_umss{
+        max-width: 90%;
+    }
+    #img_informatica{ 
+        max-width: 120%;
+    }
+    #img_scesi{
+        margin-top: 5%;
+        max-width: 90%;
+    }
+    #img_ful{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        max-width: 120%;
+        border: 0.01em solid white;
+    }
+
+    footer .nav>li>a {
+        padding:3px;
+        color:#ccc;
+    }
+
+    footer .nav>li>a:hover {
+        background-color:transparent;
+        color:#fff;
+    }
+
+
+
 }
 
