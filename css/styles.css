@@ -126,8 +126,8 @@ a.list-group-item.active,[class*='-info'] {
     margin-top: 0em;  
     background-color: #275673;
     color:#fff;
-    font-size: 1.1em;
-    font-family: arial;
+    font-size: 1.0em;
+    font-family: sans-serif;
 }
 
 #section6 .v-center {
@@ -163,7 +163,7 @@ footer .container div div img{
 }
 #img_ful{
     margin-top: 35%;
-    max-width: 140%;
+    max-width: 120%;
     border: 0.01em solid white;
 }
 
@@ -191,6 +191,9 @@ footer .nav>li>a:hover {
 .contact-text{
     padding-bottom: 1%;
 }
+
+/* ===============   MEDIA QUERIES  ============== */
+
 
 @media screen and (max-width: 320px) {
     
@@ -233,7 +236,7 @@ footer .nav>li>a:hover {
     #img_ful{
         margin-top: 5%;
         margin-bottom: 10%;
-        max-width: 120%;
+        max-width: 110%;
         border: 0.01em solid white;
     }
 
