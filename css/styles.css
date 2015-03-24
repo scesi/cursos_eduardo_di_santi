@@ -76,7 +76,7 @@ a.list-group-item.active,[class*='-info'] {
 #img_dron{
     margin-right: 0; 
     padding-right: 0; 
-    max-width: 90%;
+    max-width: 110%;
     border-bottom: 0.09em solid black;
     border-right: 0.09em solid black;
 }
@@ -94,8 +94,22 @@ a.list-group-item.active,[class*='-info'] {
 
 
 #section0 .v-center {
-    margin-top: 3%;
+    margin-top: 2%;
     font-size: 2.8em;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+#section0 table{
+    font-family: helvetica;
+    font-size: 1.1em;
+}
+#section0 table thead td{
+    font-family: arial;
+    font-size: 0.3em;
+    font-weight: bold;
+}
+
+#section0 .actual{
 }
   
 #section1 {
@@ -113,9 +127,14 @@ a.list-group-item.active,[class*='-info'] {
     color:#ddd;
 }
 
+
 #section4 {
-	background-color: #0F2625;
+    background-color: #0F2625;
     color:#fff;
+}
+    
+#section4 ul li{
+    list-style: none;
 }
 
 #section5,#section6,#section7 a {
